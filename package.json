@@ -5,18 +5,11 @@
   "main": "bloggify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production bloggify start > output.log",
+    "start": "NODE_ENV=production bloggify start",
     "start:dev": "bloggify start"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "MIT",
-  "dependencies": {
-    "bloggify-cli": "^1.0.0",
-    "bloggify-config": "^1.0.6",
-    "bloggify-custom-assets": "^1.0.2",
-    "bloggify-flexible-router": "^1.0.0",
-    "bloggify-router": "^1.0.7"
-  },
   "files": [
     "bin/",
     "app/",
@@ -52,5 +45,8 @@
       ],
       "language": "bash"
     }
+  },
+  "dependencies": {
+    "bloggify": "0.0.0-alpha6"
   }
 }

@@ -1,0 +1,3 @@
+<% include(Bloggify.views.header) %>
+Hello, <%= lien.params.user %>!
+<% include(Bloggify.views.footer) %>
