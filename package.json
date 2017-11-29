@@ -2,13 +2,12 @@
   "name": "bloggify-custom-app-template",
   "version": "2.0.0",
   "description": "A custom application built with @Bloggify.",
-  "main": "bloggify.js",
+  "main": "bloggify.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production bloggify start",
-    "start:dev": "bloggify start"
+    "start": "bloggify-prod-start",
+    "start:dev": "bloggify-dev-start"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "license": "MIT",
   "files": [
     "bin/",
@@ -16,11 +15,14 @@
     "lib/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ],
   "bugs": {
     "url": "https://github.com/BloggifyTutorials/custom-app/issues"
@@ -47,6 +49,6 @@
     }
   },
   "dependencies": {
-    "bloggify": "0.0.0-alpha11"
+    "bloggify": "0.0.0-alpha21"
   }
 }
