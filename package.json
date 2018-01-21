@@ -1,6 +1,6 @@
 {
   "name": "bloggify-custom-app-template",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A custom application built with @Bloggify.",
   "main": "bloggify.json",
   "scripts": {
