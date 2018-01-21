@@ -5,7 +5,8 @@
   "main": "bloggify.json",
   "scripts": {
     "start": "bloggify-prod-start",
-    "start:dev": "bloggify-dev-start"
+    "start:dev": "bloggify-dev-start",
+    "bundle": "bloggify-bundle"
   },
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "license": "MIT",
