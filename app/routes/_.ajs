@@ -1,8 +1,8 @@
-<% include(Bloggify.views.header) %>
+<% include(Bloggify.partials.header) %>
 <div class="box">
     <img src="<%= _public("/images/logo.png") %>" alt="">
     <p>Congrats! &lt;3
     <br>You are running <strong>Bloggify</strong> on Node <%= process.version %>. </p>
-    <% include(Bloggify.views.menu) %>
+    <% include(Bloggify.partials.menu) %>
 </div>
-<% include(Bloggify.views.footer) %>
+<% include(Bloggify.partials.footer) %>

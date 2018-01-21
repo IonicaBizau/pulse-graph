@@ -1,8 +1,8 @@
-<% include(Bloggify.views.header) %>
+<% include(Bloggify.partials.header) %>
 Whoups! Something went really wrong!
 
 <% var err = typeof error === "undefined" ? null : error %>
 <% if (err && !Bloggify.production) { %>
     <pre><%= err.stack %></pre>
 <% } %>
-<% include(Bloggify.views.footer) %>
+<% include(Bloggify.partials.footer) %>

@@ -1,8 +1,0 @@
-{
-  "title": "Custom App",
-  "description": "A custom application built with @Bloggify.",
-  "domain": "http://custom-app.com",
-  "styles": [
-      "app/assets/css/index.css"
-  ]
-}
