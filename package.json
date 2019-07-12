@@ -55,9 +55,10 @@
     }
   },
   "dependencies": {
-    "bloggify": "^1.4.0"
+    "bloggify": "^1.4.1",
+    "bloggify-ajs-components": "^1.0.0"
   },
   "devDependencies": {
-    "bloggify-cli": "^1.4.0"
+    "bloggify-cli": "^1.4.1"
   }
 }
