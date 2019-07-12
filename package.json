@@ -4,9 +4,14 @@
   "description": "A custom application built with @Bloggify.",
   "main": "bloggify.json",
   "scripts": {
-    "start": "bloggify-prod-start",
-    "start:dev": "bloggify-dev-start",
-    "bundle": "bloggify-bundle"
+    "start": "npm run start:prod",
+    "start:dev": "bloggify-dev-start -r",
+    "bundle": "PORT=8081 NODE_ENV=production bloggify start --exit-after-bundle",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:debug": "node debug `which bloggify` start -r",
+    "start:prod": "BLOGGIFY_LOG_LEVEL=4 bloggify-prod-start --no-workers",
+    "start:prod:debug": "NODE_ENV=production node debug `which bloggify` start",
+    "start:prod:debug:devtools": "NODE_ENV=production node debug --inspect `which bloggify` start"
   },
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "license": "MIT",
@@ -50,6 +55,9 @@
     }
   },
   "dependencies": {
-    "bloggify": "0.0.0-alpha33"
+    "bloggify": "^1.4.0"
+  },
+  "devDependencies": {
+    "bloggify-cli": "^1.4.0"
   }
 }

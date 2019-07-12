@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title><%= title %></title>
-        <%- Bloggify.assets.html() %>
+        <% mod("bloggify-ajs-components/lib/head") %>
+        <% mod("bloggify-ajs-components/lib/og-social") %>
     </head>
     <body>
