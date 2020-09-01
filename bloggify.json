@@ -1,5 +1,10 @@
 {
-    "plugins": [
-        "ajs-components"
-    ]
+  "plugins": [
+    "ajs-components",
+    "ws"
+  ],
+  "title": "Pulse Graph",
+  "description": "Display the heartbeats as a graph.",
+  "domain": "",
+  "input_file": "./file.in"
 }
