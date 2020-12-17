@@ -1,8 +1,4 @@
 <% include(Bloggify.partials.header) %>
-<div class="box">
-    <img src="<%= _public("/images/logo.png") %>" alt="">
-    <p>Congrats! &lt;3
-    <br>You are running <strong>Bloggify</strong> on Node <%= process.version %>. </p>
-    <% include(Bloggify.partials.menu) %>
-</div>
+<canvas id="demo"></canvas>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
 <% include(Bloggify.partials.footer) %>
